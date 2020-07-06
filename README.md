@@ -8,7 +8,7 @@ Requirements:
 - The architecture must be cost-effective
 - The achitecture needs to scale fast if needed
 
-![simple_view](/media/10000fts_view.png)
+![simple_view](media/10000fts_view.png)
 
 ## Function to process Queue
 
