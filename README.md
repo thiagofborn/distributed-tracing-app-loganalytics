@@ -2,6 +2,12 @@
 
 This was a prove of concept using an possible workload.
 
+Requirements:
+
+- The message posted to the Rest API needs to be easily traceble end to end.
+- The architecture must be cost-effective
+- The achitecture needs to scale fast if needed
+
 ![simple_view](/media/10000fts_view.png)
 
 ## Function to process Queue
