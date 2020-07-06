@@ -16,12 +16,12 @@ Requirements:
 
 ## Function to process Queue
 
-Function to consume queue data add a custom currelation ID and post to Azure API Management.
+The Function consumes queue data adds a custom currelation ID and then posts to Azure API Management.
 
 <https://github.com/thiagofborn/queueTriggerToSendPost>
 
 ## Function to read from Azure Event Hubs
 
-Function that reads from Azure Event Hubs and sends the information formated to a specific case to Azure Log Analytics.
+The Function reads from Azure Event Hubs and sends the information formated to a specific Azure Log Analytics's workspace customized.
 
 <https://github.com/thiagofborn/eventHubsTriggerLogAnalytics>
