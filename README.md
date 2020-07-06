@@ -1,6 +1,6 @@
 # Distributed tracing Using Functions and Log Analytics
 
-This document represents a proof of concept. All the "package" transit needs to be traceable.
+This document represents a proof of concept. All the "packages" transit needs to be traceable.
 A producer generates data that is stored in a storage account. The storage account has a queue container.
 The queue container triggers a function that pushes the content to API Management.
 The API Management then posts the data to a backend Rest API server and writes the operations logs to an Azure Event Hubs. A function is triggered by the Azure Event Hubs' event and posts the log data to Azure Log Analytics as a custom log.
