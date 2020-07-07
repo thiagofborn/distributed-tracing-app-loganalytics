@@ -68,6 +68,6 @@ The **"REST_API_BACKEND"**, is runnimg on Azure as Web APP.
 
 ## Backend Server Rest API
 
-To keep simple, I used an Azure Web APP written in .Net Core to run a Rest API application.  To be convenient during the Azure API Management integration, I used Open API definitions on the application.
+To keep simple, I used an Azure Web APP written in .Net Core to run a Rest API application.  To be convenient during the Azure API Management integration, I used OpenAPI definitions on the application.
 
 <https://github.com/thiagofborn/restapimocktests>
