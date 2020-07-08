@@ -71,3 +71,11 @@ The **"REST_API_BACKEND"**, is runnimg on Azure as Web APP.
 To keep simple, I used an Azure Web APP written in .Net Core to run a Rest API application.  To be convenient during the Azure API Management integration, I used OpenAPI definitions on the application.
 
 <https://github.com/thiagofborn/restapimocktests>
+
+## Query the CustomCurrelationId on Azure Log Analytics
+
+Via Azure portal go to the workspace created for the custom log, then use the query UI interface.
+
+```kql
+tracing_CL
+```
